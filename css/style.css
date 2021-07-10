@@ -1,0 +1,172 @@
+/* Fonts */
+h1{
+    font-family: "Roboto" ,sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 106px;
+}
+h2{
+    font-family: "Roboto" ,sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 84px;
+}
+.txt-24-42{
+    font-family: "Roboto" ,sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 42px;
+}
+.txt-24b-36{
+    font-family: "Roboto" ,sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+.txt-24m-36{
+    font-family: "Roboto" ,sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+.txt-20-30{
+    font-family: "Roboto" ,sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+.txt-20-42{
+    font-family: "Roboto" ,sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 42px;
+    margin-top: 16px;
+}
+.txt-l{
+    text-align: left;
+}
+
+/* Color */
+.txt-white{
+    color: white;
+}
+.bg-black{
+    background-color: black;
+}
+/* Layout */
+.mb-4{
+    margin-bottom: 4px;
+}
+.mb-8{
+    margin-bottom: 8px;
+}
+.mb-12{
+    margin-bottom: 12px;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.mb-28{
+    margin-bottom: 28px;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-56{
+    margin-bottom: 56px;
+}
+.mb-48{
+    margin-bottom: 48px;
+}
+.mb-68{
+    margin-bottom: 68px;
+}
+.mr-24{
+    margin-right: 24px;
+}
+
+
+/* Elements */
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+.wrap{
+    width: 100%;
+}
+.flex{
+    display: flex;
+}
+.header{
+    height: 958px;
+    background-image: url(../image/banner.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.intro{
+    width: 330px;
+    margin: 0 auto;
+
+}
+.icongroup{
+    justify-content: space-between;
+}
+
+.about{
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+.about hr{
+    width: 384px;
+}
+.about ul{
+    list-style: disc;
+    list-style-image: url(../image/dot.svg);
+    list-style-position: inside;
+}
+.brand{
+    padding-top: 56px;
+    padding-bottom: 160px;
+}
+.works{
+    padding-top: 56px;
+    padding-bottom: 144px;
+}
+.contact{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.brandgroup{
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.workgroup{
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.brandgroup li , .workgroup li{
+    display: inline-block;
+}
